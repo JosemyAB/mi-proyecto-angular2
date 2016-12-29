@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  //VARIABLES
   title = 'app works!. Josemy PUTO AMO';
+  visible = false;
+
+  //METODOS
+  decirAdios() {
+
+    if (this.visible) {
+      this.title = 'YA HAS SALIDO¡'      
+    }
+    else {
+      this.visible = true;
+    }
+  }
 }
