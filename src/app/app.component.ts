@@ -9,12 +9,13 @@ export class AppComponent {
   //VARIABLES
   title = 'app works!. Josemy PUTO AMO';
   visible = false;
+  claseJosemy = 'css-Josemy'
 
   //METODOS
   decirAdios() {
 
     if (this.visible) {
-      this.title = 'YA HAS SALIDO¡'      
+      this.title = 'YA HAS SALIDO¡';
     }
     else {
       this.visible = true;
