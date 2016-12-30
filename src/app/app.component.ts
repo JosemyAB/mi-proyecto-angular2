@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   //VARIABLES
-  title = 'app works!. Josemy PUTO AMO';
+  title = 'Aplicación prueba Angular 2';
   visible = false;
   claseJosemy = 'css-Josemy'
 
