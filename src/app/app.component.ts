@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!. Josemy PUTO AMO';
+  //VARIABLES
+  title = 'Aplicación prueba Angular 2';
+  visible = false;
+  claseJosemy = 'css-Josemy'
+
+  //METODOS
+  decirAdios() {
+
+    if (this.visible) {
+      this.title = 'YA HAS SALIDO¡';
+    }
+    else {
+      this.visible = true;
+    }
+  }
 }
